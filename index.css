@@ -140,7 +140,7 @@ button {
 
 @media (max-width:500px) {
     .contenedor-header {
-        width: 100%;
+        width: 80%;
     }
 
 }
