@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(76, 41, 109);
+
+}
+
+
+
+
+
+.contenedor-text {
+    width: 80%;
+}
+
+
+.contenedor-header {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+button {
+    font-size: 30px;
+}
+
+.contenedor-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.contenedor-text p {
+
+
+    font-family: 'Kanit-Medium';
+    font-size: 1em;
+    padding: 0%;
+    margin: 0px;
+    margin-top: 3px;
+
+}
+
+.contenedor-text button {
+    display: flex;
+    justify-content: space-around;
+
+    width: 40%;
+    height: 50px;
+    background-color: #626B79;
+    font-size: 2em;
+    margin: 0px;
+    border-radius: 9px;
+    border: none;
+    margin-top: 30px;
+
+}
+.seccion-info {
+    background-color: #626B79;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.seccion-info h2 {
+   margin: 0;
+   padding: 0;
+   color: rgb(199, 199, 199);
+   font-size: 3em;
+   font-family: 'kanit-Semibold';
+   margin-top: 50px;
+   
+}
+
+.seccion-info h4{
+    margin: 0;
+    padding: 0;
+    color: rgb(199, 199, 199);
+    font-family:'Kanit-Medium'
+    
+    
+    
+ }
+.seccion-img {
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.contenedor-img {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contenedor-img P {
+   color: rgb(207, 207, 207);
+   font-family: 'Kanit-Medium';
+}
+
+
+
+
+* {
+    font-family: 'kanit-Semibold';
+    text-transform: uppercase;
+    color: rgb(199, 199, 199);
+    
+}
+
+@font-face {
+    font-family: 'Kanit-SemiBold';
+    src: url(Fonts/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Kanit-Medium';
+    src: url(Fonts/Kanit-Medium.ttf);
+}
+
+
+@media (max-width:500px) {
+    .contenedor-header {
+        width: 100%;
+    }
+
+}
