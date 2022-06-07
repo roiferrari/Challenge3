@@ -53,10 +53,10 @@ button {
 
 }
 
-.contenedor-text button {
+.contenedor-text button  {
     display: flex;
     justify-content: space-around;
-
+    cursor:pointer;
     width: 40%;
     height: 50px;
     background-color: #626B79;
@@ -66,6 +66,11 @@ button {
     border: none;
     margin-top: 30px;
 
+}
+
+button:hover{
+
+color: #4c296d;
 }
 .seccion-info {
     background-color: #626B79;
@@ -140,7 +145,7 @@ button {
 
 @media (max-width:500px) {
     .contenedor-header {
-        width: 80%;
+        width: 8 0%;
     }
 
 }
