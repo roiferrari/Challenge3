@@ -7,6 +7,48 @@ header {
 
 }
 
+nav {
+    width: 80%;
+    height: 0px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    
+
+}
+
+button:hover {
+    color: black;
+}
+
+
+.list-nav {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+
+a:hover {
+  background-color: #4c296d;
+  color: #4c296d;
+    color:rgb(175, 175, 175);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase
+    
+    
+    
+}
+
+
 
 
 
@@ -29,6 +71,7 @@ img {
     width: 500px;
     height: 500px;
 }
+
 
 
 
