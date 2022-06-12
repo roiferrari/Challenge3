@@ -200,7 +200,7 @@ button:hover {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1440px) {
     .container-header {
         width: 80%;
     }
