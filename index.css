@@ -24,7 +24,7 @@
 body {
     background-color: rgb(134, 50, 50);
     margin: 0px;
-    padding: 0px;
+    
 
 }
 
@@ -197,3 +197,4 @@ button:hover {
 .container-info-img img {
     width: 100px;
 }
+
