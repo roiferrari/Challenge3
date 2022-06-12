@@ -198,3 +198,13 @@ button:hover {
     width: 100px;
 }
 
+
+
+@media (max-width: 800px) {
+    .container-header {
+        width: 80%;
+    }
+    
+
+}
+
