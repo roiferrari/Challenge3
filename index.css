@@ -109,7 +109,8 @@ header {
 }
 
 .container-text h1 {
-    font-size: 70px;
+    font-size: 70px;    
+    font-family: 'kanit-light'
 
 }
 
@@ -201,10 +202,11 @@ button:hover {
 
 
 @media (max-width: 1440px) {
-    .container-header {
-        width: 80%;
+    body {
+        width: 100%;
     }
     
 
 }
+
 
