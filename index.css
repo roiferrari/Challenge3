@@ -310,7 +310,7 @@ button:hover{
 
 
 
-@media (max-width: 1200px) and (min-width: 800px) {
+@media (max-width: 1200px) and (min-width: 500px) {
     .container-header {
         width: 100%;
     }
