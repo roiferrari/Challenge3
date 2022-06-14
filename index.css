@@ -130,6 +130,8 @@ header {
     color: blanchedalmond;
     font-family: 'kanit-light';
     font-size: 30px;
+    max-width: 200;
+    min-width: 200px;
 }
 
 button:hover {
@@ -282,7 +284,7 @@ button:hover{
     color: #863232;
     text-transform: uppercase;
     font-family: 'Kanit-Light';
-    font-size: 50px;
+    font-size: 20px;
     padding: 0;
     margin: 0;
 
@@ -308,10 +310,30 @@ button:hover{
 
 
 
-@media (max-width: 1440px) {
-    body {
+@media (max-width: 1200px) and (min-width: 800px) {
+    .container-header {
         width: 100%;
     }
 
+    .container-info-img{
+        width: 40%;
+    }
+
+    .img2{
+        width: 40%;
+        height: 40%;
+        
+    }
+
+    .container-text {
+        font-size: 20px;
+    }
+
+    nav {
+        width: 50%;
+
+    }
+
+  
 
 }
