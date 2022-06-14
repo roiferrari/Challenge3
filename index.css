@@ -316,7 +316,7 @@ button:hover{
     }
 
     .container-info-img{
-        width: 40%;
+        width: 100%;
     }
 
     .img2{
@@ -326,6 +326,7 @@ button:hover{
     }
 
     .container-text {
+        width:  20%;
         font-size: 20px;
     }
 
