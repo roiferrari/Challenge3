@@ -115,20 +115,21 @@ header {
 }
 
 .container-text p {
-    font-family: 'kanit-light'
+    font-family: 'kanit-light';
 
 
 
 }
 
 .container-text button {
-    width: 20%;
-    height: 30px;
+    width: 30%;
+    height: 60px;
     border-radius: 10px;
     border: none;
     background-color: #838B95;
     color: blanchedalmond;
     font-family: 'kanit-light';
+    font-size: 30px;
 }
 
 button:hover {
@@ -228,7 +229,7 @@ button:hover {
     background-color: #958383;
     font-family: 'kanit-light';
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 30px 30px;
     font-size: 25px;
 
