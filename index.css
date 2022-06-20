@@ -609,24 +609,27 @@ button:hover {
         text-transform: uppercase;
         font-size: 30px;
         margin: 0;
-        padding: 0;
+        
     }
 
 
-    @media (min-width:600px) {
+    @media (min-width:500px) {
         
 
-      
        
        .img2 {
         width: 300px;
         height: 300px;
        }
 
+       body {
+        width: 110%;
+       }
+
       
 
        .container-header {
-            width: 100%;
+            width: 90%;
        }
 
        a{
@@ -645,6 +648,8 @@ button:hover {
 
 
     }
+
+    
 
 
  
