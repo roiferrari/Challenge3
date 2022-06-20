@@ -616,15 +616,14 @@ button:hover {
     @media (min-width:600px) {
         
 
-       body {
-        width: 100%;
-
-       }
+      
        
        .img2 {
         width: 300px;
         height: 300px;
        }
+
+      
 
        .container-header {
             width: 100%;
@@ -632,6 +631,14 @@ button:hover {
 
        a{
         margin: 30px;
+       }
+
+       .section-info h4{
+        font-size: 15px;
+       }
+
+       .section-info h2 {
+        font-size: 30px;
        }
 
 
