@@ -220,7 +220,7 @@ button:hover {
     font-family: 'kanit-light';
     font-size: 2.3em;
     text-transform: capitalize;
-    text-transform: none    ;
+    text-transform: none;
 
 }
 
@@ -235,17 +235,18 @@ button:hover {
     margin: 30px 30px;
     font-size: 25px;
 
-    
+
 
 
 }
 
-button:hover{
+button:hover {
     background-color: #863232;
 }
+
 .section-list img {
     width: 200px;
-    
+
 
 }
 
@@ -273,7 +274,7 @@ button:hover{
     align-items: center;
     padding: 10px;
     border-radius: 10px 5px;
-    
+
 }
 
 .cards img {
@@ -306,35 +307,343 @@ button:hover{
 
 
 
-
-
-
-
-@media (max-width: 1200px) and (min-width: 500px) {
-    .container-header {
-        width: 100%;
+    @font-face {
+        font-family: 'Kanit-light';
+        src: url(./Fonts/Kanit-Light.ttf)
     }
 
-    .container-info-img{
-        width: 100%;
+
+
+
+
+    @font-face {
+        font-family: 'Kanit-bold';
+        src: url(./Fonts/Kanit-bold.ttf)
     }
 
-    .img2{
-        width: 40%;
-        height: 40%;
-        
+
+
+    * {
+        color: antiquewhite;
+        font-family: 'Kanit-bold';
     }
 
-    .container-text {
-        width:  20%;
-        font-size: 20px;
+
+
+    body {
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+
+
     }
 
     nav {
-        width: 50%;
+        /*padreLIST-NAV*/
+
+        width: 30%;
+    }
+
+    .list-nav {
+        /*hijo del NAV*/
+        display: flex;
+        width: 100%;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0%;
+        margin-top: 30px;
+
+
 
     }
 
-  
+    a {
+        color: beige;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'kanit-light';
 
-}
+
+    }
+
+    a:hover {
+        background-color: rgb(134, 50, 50);
+    }
+
+    img {
+        width: 10%;
+
+
+    }
+
+    .img-logo {
+        margin-top: 50px;
+    }
+
+    .img2 {
+        width: 500px;
+        height: 500px;
+        margin-right: 5%;
+
+
+    }
+
+    header {
+        /*contenedorPADREdelNav*/
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(20, 20, 20);
+        padding-bottom: 5%;
+    }
+
+    .container-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0%;
+        margin-top: 20px;
+
+
+
+    }
+
+    .container-text {
+        width: 50%;
+        font-size: 20px;
+
+    }
+
+    .container-text h1 {
+        font-size: 70px;
+        font-family: 'kanit-light'
+
+    }
+
+    .container-text p {
+        font-family: 'kanit-light';
+
+
+
+    }
+
+    .container-text button {
+        width: 30%;
+        height: 60px;
+        border-radius: 10px;
+        border: none;
+        background-color: #838B95;
+        color: blanchedalmond;
+        font-family: 'kanit-light';
+        font-size: 30px;
+        max-width: 200;
+        min-width: 200px;
+    }
+
+    button:hover {
+        background-color: rgb(134, 50, 50);
+        border: none;
+        cursor: pointer;
+
+    }
+
+
+    .section-info {
+        background-color: rgb(134, 50, 50)q;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        margin: 0;  
+        padding: 0;
+
+    }
+
+    .section-info h2 {
+        font-size: 3.3em;
+        text-transform: uppercase;
+        font-family: 'kanit-light';
+        margin-top: 100px 0px 0px 0px;
+        margin: 10% 0px 0px 0px;
+        padding: 0;
+    }
+
+    .section-info h4 {
+        font-size: 1.2em;
+        font-family: 'kanit-light';
+        text-transform: uppercase;
+        margin-top: 10% 0px 0px 0px;
+        margin-top: 0px;
+
+
+
+
+
+    }
+
+
+    .logos-info {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10% 0px 10% 0px;
+        
+
+    }
+
+
+    .container-info-img {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container-info-img p {
+        font-family: 'Kanit-Light';
+
+    }
+
+    .container-info-img img {
+        width: 100px;
+    }
+
+    .section-list {
+        background-color: #8f8f8f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .section-list h2 {
+        margin-top: 60px;
+        font-family: 'kanit-light';
+        font-size: 2.3em;
+        text-transform: capitalize;
+        text-transform: none;
+
+    }
+
+
+    .section-list button {
+        width: 150px;
+        height: 50px;
+        background-color: #958383;
+        font-family: 'kanit-light';
+        border: none;
+        border-radius: 10px;
+        margin: 30px 30px;
+        font-size: 25px;
+
+
+
+
+    }
+
+    button:hover {
+        background-color: #863232;
+    }
+
+    .section-list img {
+        width: 200px;
+
+
+    }
+
+
+
+    .cards-nft {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        display: flex;
+        background-color: rgb(46, 46, 46);
+        width: 30%;
+        box-shadow: -4px 4px 20px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -4px 4px 20px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -4px 4px 20px 0px rgba(0, 0, 0, 0.75);
+        margin: 20px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px 5px;
+
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    .cards h3 {
+        color: #863232;
+        text-transform: uppercase;
+        font-family: 'Kanit-Light';
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .cards p {
+        font-family: 'Kanit-Light';
+        color: #838383;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    @media (min-width:600px) {
+        
+
+       body {
+        width: 100%;
+
+       }
+       
+       .img2 {
+        width: 300px;
+        height: 300px;
+       }
+
+       .container-header {
+            width: 100%;
+       }
+
+       a{
+        margin: 30px;
+       }
+
+
+
+
+    }
+
+
+ 
+
+
+
+
+
+
