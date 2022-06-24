@@ -21,7 +21,7 @@
 
 
 body {
-    width: 100%;
+    width: 100% ;
     background-color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
@@ -813,6 +813,7 @@ button:hover {
 @media only screen and (max-width: 880px) {
      body {
         width: 100%;
+        background-color:#141414;
      }
 
     .img2 {
@@ -853,6 +854,10 @@ button:hover {
         font-size: 40px;
         padding-bottom: 29px;
 
+    }
+
+    nav {
+        width: 100%;
     }
 }
 
