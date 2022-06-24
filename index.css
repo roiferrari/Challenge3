@@ -285,6 +285,7 @@ button:hover {
 
 .cards img {
     width: 100%;
+    max-width: 100%;
 }
 
 .cards h3 {
@@ -518,6 +519,8 @@ button:hover {
 
 .container-info-img p {
     font-family: 'Kanit-Light';
+    color: black;
+
 
 }
 
@@ -817,7 +820,7 @@ button:hover {
 @media only screen and (max-width: 880px) {
      
     .img2 {
-        display: none !important;
+        display: none !important;   
     }
 
     .list-nav {
@@ -858,6 +861,21 @@ button:hover {
 
     nav {
         width: 100%;
+    }
+
+    .container-header {
+        width: 100%;
+        justify-content: left;
+        margin: 10px;
+    }
+
+    
+
+    
+
+    .cards {
+        width: 90%;
+        
     }
 }
 
